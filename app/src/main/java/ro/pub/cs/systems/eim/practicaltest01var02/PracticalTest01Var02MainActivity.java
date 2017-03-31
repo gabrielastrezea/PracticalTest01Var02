@@ -42,9 +42,9 @@ public class PracticalTest01Var02MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
 
-//            if (upperButton.getText() == null || bottomButton.getText() == null){
-//                Toast.makeText(this, "Introdu ambele valori", Toast.LENGTH_LONG).show();
-//            }
+            if (upper.getText() == null || bottom.getText() == null){
+                Toast.makeText(this, "Introdu ambele valori", Toast.LENGTH_LONG).show();
+            }
 
             int upper_nr = Integer.parseInt(upper.getText().toString());
             int bottom_nr = Integer.parseInt(bottom.getText().toString());
